@@ -19,7 +19,7 @@ git clone https://github.com/MalianR/Ejercicio-en-clase.git
 
 Cambia al directorio del proyecto:
 ```bash
-Copycd Ejercicio-en-clase
+cd Ejercicio-en-clase
 ```
 Modificación de Rutas de Archivos
 Antes de ejecutar el script, necesitas modificar las rutas de los archivos en el archivo CYK.py para que coincidan con la estructura de directorios de tu máquina local.
@@ -27,13 +27,13 @@ Antes de ejecutar el script, necesitas modificar las rutas de los archivos en el
 Abre el archivo CYK.py en un editor de texto.
 Localiza las siguientes líneas (alrededor de las líneas 73-74):
 ```bash
-pythonCopyarchivo_gramatica = r'C:\Users\jrinc\Desktop\Leng de prog y trans\gramatica.txt'
+archivo_gramatica = r'C:\Users\jrinc\Desktop\Leng de prog y trans\gramatica.txt'
 archivo_cadena = r'C:\Users\jrinc\Desktop\Leng de prog y trans\cadenas.txt'
 ```
 
 Cambia estas rutas a las ubicaciones correctas de tus archivos gramatica.txt y cadenas.txt. Por ejemplo:
 ```bash
-pythonCopyarchivo_gramatica = 'ruta/a/tu/gramatica.txt'
+archivo_gramatica = 'ruta/a/tu/gramatica.txt'
 archivo_cadena = 'ruta/a/tu/cadenas.txt'
 ```
 Asegúrate de usar barras inclinadas (/) o barras invertidas escapadas (\\) en las rutas.
