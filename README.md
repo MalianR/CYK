@@ -14,7 +14,7 @@ Abre una terminal o línea de comandos.
 Navega al directorio donde quieres clonar el proyecto.
 Ejecuta el siguiente comando:
 ```bash
-Copygit clone https://github.com/MalianR/Ejercicio-en-clase.git
+git clone https://github.com/MalianR/Ejercicio-en-clase.git
 ```
 
 Cambia al directorio del proyecto:
