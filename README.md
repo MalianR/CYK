@@ -1,6 +1,8 @@
 # CYK
 
-# # Implementación del Algoritmo CYK
+
+
+##Implementación del Algoritmo CYK
 
 Este proyecto implementa el algoritmo de Cocke-Younger-Kasami (CYK) para el análisis de gramáticas libres de contexto. El algoritmo determina si una cadena dada puede ser generada por una gramática libre de contexto en Forma Normal de Chomsky.
 
@@ -9,11 +11,23 @@ Este proyecto implementa el algoritmo de Cocke-Younger-Kasami (CYK) para el aná
 
 - Python 3.x
 
+En caso de no tenerlo, ejecuta en tu terminal
+
+```bash
+sudo apt install python
+python --version
+```
+
+
 **Clonación en local**
 Para descargar este proyecto, sigue estos pasos:
 
 1. Abre una terminal o línea de comandos.
 2. Navega al directorio donde quieres clonar el proyecto.
+```bash
+cd 'CYK'
+```
+
 3. Ejecuta el siguiente comando:
 ```bash
 git clone https://github.com/MalianR/Ejercicio-en-clase.git
@@ -51,12 +65,15 @@ Después de modificar las rutas de los archivos, puedes ejecutar el script:
 
 3. Abre una terminal o línea de comandos.
 Navega al directorio del proyecto.
+```bash
+cd CYK
+```
 Ejecuta el siguiente comando:
 ```bash
 python CYK.py
 ```
 
 El script leerá la gramática desde gramatica.txt y las cadenas de entrada desde cadenas.txt, y luego mostrará si cada cadena es aceptada por la gramática o no.
-Descripción de los Archivos
+
 
 
