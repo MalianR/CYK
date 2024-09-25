@@ -70,6 +70,7 @@ def cyk_algorithm(grammar, string):
 # Función principal para leer archivos y ejecutar el algoritmo CYK
 def main():
     # Rutas a los archivos de gramática y cadenas
+    #Importante: Al clonar este repositorio se debe cambiar 
     archivo_gramatica = r'C:\Users\jrinc\Desktop\Leng de prog y trans\gramatica.txt'
     archivo_cadena = r'C:\Users\jrinc\Desktop\Leng de prog y trans\cadenas.txt'
 
