@@ -1,12 +1,16 @@
 # CYK
 
 **Realizado por**
-- Andrés Sebastian Urrego Amaya
+-Andrés Sebastian Urrego Amaya
+
 -Sebastián Cortés Briceño
+
 -Mariana Ruge Vargas
+
 -Julian Esteban Rincón Rodríguez
 
-##Implementación del Algoritmo CYK
+
+## Implementación del Algoritmo CYK
 
 Este proyecto implementa el algoritmo de Cocke-Younger-Kasami (CYK) para el análisis de gramáticas libres de contexto. El algoritmo determina si una cadena dada puede ser generada por una gramática libre de contexto en Forma Normal de Chomsky.
 
