@@ -1,13 +1,14 @@
 # CYK
 
 **Realizado por**
--Andrés Sebastian Urrego Amaya
 
--Sebastián Cortés Briceño
+- Andrés Sebastian Urrego Amaya
 
--Mariana Ruge Vargas
+- Sebastián Cortés Briceño
 
--Julian Esteban Rincón Rodríguez
+- Mariana Ruge Vargas
+
+- Julian Esteban Rincón Rodríguez
 
 
 ## Implementación del Algoritmo CYK
