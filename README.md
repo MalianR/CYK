@@ -1,6 +1,10 @@
 # CYK
 
-
+**Realizado por**
+- Andrés Sebastian Urrego Amaya
+-Sebastián Cortés Briceño
+-Mariana Ruge Vargas
+-Julian Esteban Rincón Rodríguez
 
 ##Implementación del Algoritmo CYK
 
@@ -74,6 +78,3 @@ python CYK.py
 ```
 
 El script leerá la gramática desde gramatica.txt y las cadenas de entrada desde cadenas.txt, y luego mostrará si cada cadena es aceptada por la gramática o no.
-
-
-
