@@ -39,12 +39,12 @@ cd 'CYK'
 
 3. Ejecuta el siguiente comando:
 ```bash
-git clone https://github.com/MalianR/Ejercicio-en-clase.git
+git clone https://github.com/MalianR/CYK.git
 ```
 
 Cambia al directorio del proyecto:
 ```bash
-cd Ejercicio-en-clase
+cd CYK
 ```
 Al clonar, deberías ver los siguientes archivos
 - **CYK.py**: El script principal de Python que implementa el algoritmo CYK.
