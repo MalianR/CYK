@@ -2,7 +2,6 @@ import time
 import matplotlib.pyplot as plt
 
 def leer_gramatica_y_cadena(archivo_gramatica, archivo_cadena):
-    # Leer la gramática desde el archivo
     gramatica_unitaria = []
     gramatica_binaria = []
     
@@ -19,7 +18,6 @@ def leer_gramatica_y_cadena(archivo_gramatica, archivo_cadena):
                 elif len(rhs) == 2:
                     gramatica_binaria.append((lhs, rhs))
 
-    # Leer la cadena desde el archivo
     cadenas = []
     with open(archivo_cadena, 'r') as file:
         for linea in file:
@@ -54,19 +52,15 @@ def main():
     archivo_gramatica = r'C:\Users\jrinc\Desktop\Leng de prog y trans\CYK\gramatica.txt'
     archivo_cadena = r'C:\Users\jrinc\Desktop\Leng de prog y trans\CYK\cadenas.txt'
 
-    # Leer la gramática y las cadenas desde los archivos
     gramatica_unitaria, gramatica_binaria, cadenas = leer_gramatica_y_cadena(archivo_gramatica, archivo_cadena)
 
-    # Listas para almacenar las longitudes y tiempos
     longitudes = []
     tiempos = []
 
-    # Para cada cadena en la lista de cadenas
     for i, cadena in enumerate(cadenas, 1):
         longitud = len(cadena)
         longitudes.append(longitud)
 
-        # Medir el tiempo de ejecución del algoritmo CYK para la cadena actual
         inicio = time.time()
         cyk_algorithm(gramatica_unitaria, gramatica_binaria, cadena)
         fin = time.time()
@@ -75,8 +69,8 @@ def main():
         tiempos.append(tiempo)
         print(f"Línea {i}: Longitud de la cadena = {longitud}, Tiempo de ejecución = {tiempo:.6f} segundos")
     
-    # Graficar longitud de cadena vs tiempo de ejecución
-    plt.plot(longitudes, tiempos, 'o-', label='Tiempo de ejecución')
+    # Graficar longitud de cadena vs tiempo de ejecución solo con puntos
+    plt.plot(longitudes, tiempos, 'o', label='Tiempo de ejecución')
     plt.xlabel('Longitud de la cadena (n)')
     plt.ylabel('Tiempo de ejecución (segundos)')
     plt.title('Complejidad temporal del algoritmo CYK: O(n^3)')
